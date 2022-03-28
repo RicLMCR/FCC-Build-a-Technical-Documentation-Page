@@ -21,9 +21,11 @@ section{
 
 code{
     background-color: rgb(212, 212, 212);
+    margin-left: 2em;
 }
+
 p{
-    padding: .5em;
+    /* padding: .5em; */
 }
 
 /*** Link Rollover ***/
@@ -83,6 +85,6 @@ a:active {
 
 .aside{
     background-color: red;
-padding: 1em 0 1em 1em;
-margin: 1em 0 1em 1em;
+padding: 1em 2em 1em 1em;
+margin: 1em 1em 1em 1em;
 }
