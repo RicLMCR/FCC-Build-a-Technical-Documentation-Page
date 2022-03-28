@@ -1,0 +1,88 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3{
+    padding:1em 0em 1em 0em;
+}
+
+h2{
+    font-size: large;
+}
+
+section{
+    padding-bottom: 2em;
+}
+
+code{
+    background-color: rgb(212, 212, 212);
+}
+p{
+    padding: .5em;
+}
+
+/*** Link Rollover ***/
+
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+  /* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+  /* mouse over link */
+a:hover {
+    color: black;
+    font-style: italic;
+}
+
+  /* selected link */
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+
+/*** Nav Bar ***/
+
+#navbar{
+    position:fixed;
+    height: 100%;
+    width: 300px;
+    background-color: rgb(212, 212, 212);
+}
+
+#nav-links>ul>li{
+    list-style-type: none;
+    padding: .6em;
+    border-bottom: 1px solid;
+}
+
+#navbar>header>h1{
+    text-align: center;
+}
+
+
+/*** Main Content ***/
+
+#main-doc{
+    max-width:100%;
+    margin-left: 310px;
+    padding-left: 3em;
+}
+
+.aside{
+    background-color: red;
+padding: 1em 0 1em 1em;
+margin: 1em 0 1em 1em;
+}
